@@ -39,6 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUI.IntegrationTests", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.IntegrationTests", "Tests\Persistence.IntegrationTests\Persistence.IntegrationTests.csproj", "{FCFF633E-3675-41FE-8A2C-18009C744C00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalDev", "LocalDev", "{29BC3639-37DF-4634-A834-6DA1D302EA78}"
+ProjectSection(SolutionItems) = preProject
+	northwindtraders-localdev\docker-compose.yml = northwindtraders-localdev\docker-compose.yml
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
